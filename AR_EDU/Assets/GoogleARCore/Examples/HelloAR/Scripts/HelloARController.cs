@@ -24,6 +24,7 @@ namespace GoogleARCore.Examples.HelloAR
     using GoogleARCore;
     using GoogleARCore.Examples.Common;
     using UnityEngine;
+    using UnityEngine.UI;
     using UnityEngine.EventSystems;
 
 #if UNITY_EDITOR
@@ -67,6 +68,8 @@ namespace GoogleARCore.Examples.HelloAR
         /// otherwise false.
         /// </summary>
         private bool m_IsQuitting = false;
+
+        public TextMesh mytext;
 
         /// <summary>
         /// The Unity Awake() method.
@@ -148,6 +151,7 @@ namespace GoogleARCore.Examples.HelloAR
                     // Create an anchor to allow ARCore to track the hitpoint as understanding of
                     // the physical world evolves.
                     var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+                    mytext.text = (anchor + " " + anchor.transform.localScale + " " + anchor.transform.lossyScale);
 
                     // Make game object a child of the anchor.
                     gameObject.transform.parent = anchor.transform;
