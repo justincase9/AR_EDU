@@ -246,9 +246,9 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPAnchor.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
+    <Compile Include="Assets\Scripts\ArController.cs" />
     <Compile Include="Assets\Scripts\LygiuScript.cs" />
     <Compile Include="Assets\Scripts\TemuScript.cs" />
-    <Compile Include="Assets\Scripts\ArController.cs" />
     <Compile Include="Assets\Scripts\cannon.cs" />
     <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
@@ -837,7 +837,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
