@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Kinematics#2.unity
+    guid: 15fe82db71da9e843b7624d9b3aea17a
+  - enabled: 1
     path: Assets/Scenes/Kinematics_1.unity
     guid: 3f074c24bb5dba647a57e6ca751e51f7
   m_configObjects: {}

@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ArController
     - Controller_1
     - GoogleARCore.ARCoreBackgroundRenderer
     - GoogleARCore.ARCoreCameraConfigFilter
@@ -12,7 +13,8 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.Common.PlaneDiscoveryGuide
     - GoogleARCore.Examples.Common.PointcloudVisualizer
     - GoogleARCore.Examples.Common.RawImageVideoPlayer
-    - StartMovement
+    - TemuScript
+    - cannon
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -31,6 +33,97 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Kinematics#2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11210}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 11590}
+    - Class: 114
+      Script: {instanceID: 11946}
+    - Class: 114
+      Script: {instanceID: 11956}
+    - Class: 114
+      Script: {instanceID: 11974}
+    - Class: 114
+      Script: {instanceID: 12038}
+    - Class: 114
+      Script: {instanceID: 12256}
+    - Class: 114
+      Script: {instanceID: 12444}
+    - Class: 114
+      Script: {instanceID: 12596}
+    - Class: 114
+      Script: {instanceID: 12622}
+    - Class: 114
+      Script: {instanceID: 12818}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 12998}
+    - Class: 114
+      Script: {instanceID: 13166}
+    - Class: 114
+      Script: {instanceID: 13236}
+    - Class: 114
+      Script: {instanceID: 13240}
+    - Class: 114
+      Script: {instanceID: 13344}
+    - Class: 114
+      Script: {instanceID: 13396}
+    - Class: 114
+      Script: {instanceID: 13746}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
     Assets/Scenes/Kinematics_1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -122,7 +215,56 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
-    - Class: 329
+    Assets/Scenes/MenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11210}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 12038}
+    - Class: 114
+      Script: {instanceID: 12596}
+    - Class: 114
+      Script: {instanceID: 13152}
+    - Class: 114
+      Script: {instanceID: 13236}
+    - Class: 114
+      Script: {instanceID: 13746}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -679,12 +821,6 @@ ScriptsOnlyBuild:
     className: ARCoreSessionConfig
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LygiuScript
-  - hash:
-      serializedVersion: 2
       Hash: edb986b6ebeb66208841352d63987938
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleARCore.Examples.CloudAnchors
@@ -937,5 +1073,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
+  - Assets/Scenes/MenuScene.unity
+  - Assets/Scenes/Kinematics#2.unity
   - Assets/Scenes/Kinematics_1.unity
-  playerPath: D:/KTU/V semestras/GitHub/AR_EDU/AR_EDU/5555.apk
+  playerPath: E:/Unity/AREDU/AR_EDU/AR_EDU/8.apk

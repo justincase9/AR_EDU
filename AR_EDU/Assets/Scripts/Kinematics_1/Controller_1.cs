@@ -2,6 +2,7 @@
 using GoogleARCore;
 using GoogleARCore.Examples.Common;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 #if UNITY_EDITOR
     using Input = GoogleARCore.InstantPreviewInput;
@@ -156,7 +157,7 @@ public class Controller_1 : MonoBehaviour
         // Exit the app when the 'back' button is pressed.
         if (Input.GetKey(KeyCode.Escape))
         {
-            Application.Quit();
+            SceneManager.LoadScene("MenuScene");
         }
 
         // Only allow the screen to sleep when not tracking.
@@ -196,7 +197,7 @@ public class Controller_1 : MonoBehaviour
     /// </summary>
     private void _DoQuit()
     {
-        Application.Quit();
+        SceneManager.LoadScene("MenuScene");
     }
 
     /// <summary>

@@ -84,6 +84,7 @@ public class TemuScript : MonoBehaviour
         if (num == 0)
         {
             Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
+            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
         }
         Lygiai.SetActive(true);
         Temos.SetActive(false);
@@ -91,7 +92,8 @@ public class TemuScript : MonoBehaviour
 
     void SceneLoad(int i)
     {
-        if (i == 1) ;
+        if (i == 1)
+            SceneManager.LoadScene("Kinematics_1");
         else if (i == 2)
             SceneManager.LoadScene("Kinematics#2");
         
