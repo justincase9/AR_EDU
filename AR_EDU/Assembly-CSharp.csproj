@@ -77,6 +77,7 @@
     <Compile Include="Assets\GoogleARCore\Examples\CloudAnchors\Scripts\StarController.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\DetectedPlaneGenerator.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\DetectedPlaneVisualizer.cs" />
+    <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\DiscoveryPointCloudScript.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\PlaneDiscoveryGuide.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\PointcloudVisualizer.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\Common\Scripts\RawImageVideoPlayer.cs" />
@@ -246,6 +247,8 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPAnchor.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
+    <Compile Include="Assets\Scripts\Kinematics_1\Controller_1.cs" />
+    <Compile Include="Assets\StartMovement.cs" />
     <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
