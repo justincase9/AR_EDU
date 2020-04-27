@@ -68,3 +68,4 @@ AR_EDU/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 # Temporary auto-generated Android Assets
 AR_EDU/[Aa]ssets/[Ss]treamingAssets/aa.meta
 AR_EDU/[Aa]ssets/[Ss]treamingAssets/aa/*
+AR_EDU/Library/Artifacts/*
