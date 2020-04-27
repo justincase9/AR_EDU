@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - GoogleARCore.Examples.Common.PlaneDiscoveryGuide
     - GoogleARCore.Examples.Common.PointcloudVisualizer
     - GoogleARCore.Examples.Common.RawImageVideoPlayer
+    - TemuScript
     - cannon
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -59,47 +60,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11210}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11466}
     - Class: 114
-      Script: {instanceID: 11538}
+      Script: {instanceID: 11520}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 11962}
+      Script: {instanceID: 11944}
+    - Class: 114
+      Script: {instanceID: 11954}
     - Class: 114
       Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12054}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 12272}
+      Script: {instanceID: 12442}
     - Class: 114
-      Script: {instanceID: 12460}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12620}
     - Class: 114
-      Script: {instanceID: 12638}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 12832}
+      Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 12922}
+      Script: {instanceID: 12994}
     - Class: 114
-      Script: {instanceID: 13012}
+      Script: {instanceID: 13162}
     - Class: 114
-      Script: {instanceID: 13180}
+      Script: {instanceID: 13232}
     - Class: 114
-      Script: {instanceID: 13250}
+      Script: {instanceID: 13236}
     - Class: 114
-      Script: {instanceID: 13254}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 13358}
+      Script: {instanceID: 13392}
     - Class: 114
-      Script: {instanceID: 13410}
-    - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13740}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -121,6 +122,57 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 328
+      Script: {instanceID: 0}
+    Assets/Scenes/MenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11210}
+    - Class: 114
+      Script: {instanceID: 11466}
+    - Class: 114
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 12036}
+    - Class: 114
+      Script: {instanceID: 12594}
+    - Class: 114
+      Script: {instanceID: 13148}
+    - Class: 114
+      Script: {instanceID: 13232}
+    - Class: 114
+      Script: {instanceID: 13740}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -917,5 +969,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
+  - Assets/Scenes/MenuScene.unity
   - Assets/Scenes/Kinematics#2.unity
-  playerPath: E:/Unity/6.apk
+  playerPath: E:/Unity/7.apk

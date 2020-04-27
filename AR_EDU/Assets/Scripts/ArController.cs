@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using GoogleARCore;
 using GoogleARCore.Examples.Common;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
@@ -154,7 +155,7 @@ public class ArController : MonoBehaviour
         // Exit the app when the 'back' button is pressed.
         if (Input.GetKey(KeyCode.Escape)) //------------------------------------- IDET KAD GRYSTU I MENU
         {
-            Application.Quit();
+            SceneManager.LoadScene("MenuScene");
         }
 
         // Only allow the screen to sleep when not tracking.

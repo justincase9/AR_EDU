@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TemuScript : MonoBehaviour
 {
@@ -80,10 +81,19 @@ public class TemuScript : MonoBehaviour
         //Debug.Log(Lygiai.transform.childCount);
         for(int i=0;i < Lygiai.transform.childCount; i++)
             Lygiai.transform.GetChild(i).GetComponentInChildren<Text>().text = lPav[6 * num + i];
- 
+        if (num == 0)
+        {
+            Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
+        }
         Lygiai.SetActive(true);
         Temos.SetActive(false);
     }
 
-    
+    void SceneLoad(int i)
+    {
+        if (i == 1) ;
+        else if (i == 2)
+            SceneManager.LoadScene("Kinematics#2");
+        
+    }
 }
