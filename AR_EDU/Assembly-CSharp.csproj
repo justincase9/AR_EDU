@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DrawLine.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceMeshFilter.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\ARCoreAugmentedFaceRig.cs" />
     <Compile Include="Assets\GoogleARCore\Examples\AugmentedFaces\Scripts\AugmentedFacesExampleController.cs" />
@@ -249,6 +250,8 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
     <Compile Include="Assets\Scripts\ArController.cs" />
     <Compile Include="Assets\Scripts\Kinematics_1\Controller_1.cs" />
+    <Compile Include="Assets\Scripts\Optics\DrawLineScript.cs" />
+    <Compile Include="Assets\Scripts\Optics\DrawOtherLines.cs" />
     <Compile Include="Assets\Scripts\TemuScript.cs" />
     <Compile Include="Assets\Scripts\cannon.cs" />
     <Compile Include="Assets\StartMovement.cs" />
