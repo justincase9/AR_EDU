@@ -197,7 +197,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8218858194431961541}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -311,10 +311,10 @@ LineRenderer:
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 3
     shadowBias: 0
     generateLightingData: 0
-  m_UseWorldSpace: 0
+  m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!1 &8218858194635853033
 GameObject:
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 8218858194831249281}
   - component: {fileID: 8218858194831249280}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
