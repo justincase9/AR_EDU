@@ -83,11 +83,10 @@ namespace Tests
         public IEnumerator ForceArrowDirectionTest()
         {
 
-            yield return null;
+            yield return new WaitForSeconds(1f);
+
 
             Vector3 vel = cn.rb.velocity;
-
-            yield return null;
 
             Vector3 initialPosition = cn.rb.transform.position;
             Assert.GreaterOrEqual(vel.x >= 0 ? cn.lr.GetPosition(2).x : initialPosition.x, vel.x >= 0 ? initialPosition.x : cn.lr.GetPosition(2).x);
