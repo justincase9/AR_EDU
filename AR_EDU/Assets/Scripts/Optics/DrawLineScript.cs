@@ -6,21 +6,22 @@ public class DrawLineScript : MonoBehaviour
 {
     // Start is called before the first frame update
     private LineRenderer lineRenderer;
-    private float counter;
-    private float dist;
+    public float counter;
+    public float dist;
     public Transform origin;
     public Transform destination;
     public bool isAtEnd = false;
+    //public float counter;
 
     public float lineDrawSpeed = 6f;
 
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.SetPosition(0, origin.position);
-        lineRenderer.SetWidth(.13f, .13f);
+        lineRenderer.SetPosition(0, origin.localPosition);
+        lineRenderer.SetWidth(.005f, .005f);
 
-        dist = Vector3.Distance(origin.position, destination.position);
+        dist = Vector3.Distance(origin.localPosition, destination.localPosition);
 
     }
 
@@ -33,18 +34,14 @@ public class DrawLineScript : MonoBehaviour
 
             float x = Mathf.Lerp(0, dist, counter);
 
-            Vector3 pointA = origin.position;
-            Vector3 pointB = destination.position;
+            Vector3 pointA = origin.localPosition;
+            Vector3 pointB = destination.localPosition;
 
             Vector3 pointAlongLine = x * Vector3.Normalize(pointB - pointA) + pointA;
             lineRenderer.SetPosition(1, pointAlongLine);
+            if (counter >= 1)
+                isAtEnd = true;
         }
-        if (Mathf.Abs(dist - counter) <= 0.5f)
-        {
-            isAtEnd = true;
-        }
-
+        
     }
-
-
 }
