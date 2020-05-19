@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class cannon : MonoBehaviour
 {
@@ -9,11 +10,10 @@ public class cannon : MonoBehaviour
 
     public float gravityScale = 1.0f;
     public static float globalGravity = -9.81f;
-    bool animating = true;
+    public bool animating = true;
 
-
-    LineRenderer lr;
-    Rigidbody rb;
+    public LineRenderer lr;
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,11 +41,11 @@ public class cannon : MonoBehaviour
                 animating = false;
                 //rb.gameObject.GetComponent<LineRenderer>().enabled = false;
             }
-
-            lr.SetPosition(0, rb.transform.position);
+            //Debug.Log(String.Format("{0}, {1}, {2} || {3} {4} {5}", rb.velocity.x, rb.velocity.y, rb.velocity.z, rb.transform.position.x, rb.transform.position.y, rb.transform.position.z));
+            lr.SetPosition(0, rb.transform.position + (rb.velocity/50));
             lr.SetPosition(1, rb.transform.position + (rb.velocity * 0.15f));
             lr.SetPosition(2, rb.transform.position + (rb.velocity * 0.175f));
-            lr.SetPosition(3, rb.transform.position);
+            lr.SetPosition(3, rb.transform.position + (rb.velocity / 50));
             lr.SetPosition(4, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.15f));
             lr.SetPosition(5, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.175f));
             lr.widthCurve = new AnimationCurve(new Keyframe(0, 0.8f), new Keyframe(0.2f, .8f), new Keyframe(.4f, 0), new Keyframe(.531f, 0.8f), new Keyframe(.9f, 0.8f), new Keyframe(1f, 0f));

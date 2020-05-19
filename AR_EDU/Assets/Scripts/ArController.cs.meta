@@ -3,7 +3,13 @@ guid: a998f0422e4016f41b502c62d27f3e54
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - FirstPersonCamera: {instanceID: 0}
+  - GameObjectVerticalPlanePrefab: {instanceID: 0}
+  - GameObjectHorizontalPlanePrefab: {fileID: 8218858194635853033, guid: 493c686a43a2191449be93e05d9a50c5,
+      type: 3}
+  - GameObjectPointPrefab: {instanceID: 0}
+  - mytext: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
