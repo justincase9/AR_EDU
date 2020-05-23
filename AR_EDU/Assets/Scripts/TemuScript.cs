@@ -22,7 +22,7 @@ public class TemuScript : MonoBehaviour
         lPav[3] = "Comming soon";
         lPav[4] = "Comming soon";
         lPav[5] = "Comming soon";
-        lPav[6] = "Comming soon";
+        lPav[6] = "Prizme";
         lPav[7] = "Comming soon";
         lPav[8] = "Comming soon";
         lPav[9] = "Comming soon";
@@ -85,6 +85,12 @@ public class TemuScript : MonoBehaviour
         {
             Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
             Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
+
+        }
+        if(num == 1)
+        {
+            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(7));
+
         }
         Lygiai.SetActive(true);
         Temos.SetActive(false);
@@ -96,6 +102,8 @@ public class TemuScript : MonoBehaviour
             SceneManager.LoadScene("Kinematics_1");
         else if (i == 2)
             SceneManager.LoadScene("Kinematics#2");
-        
+        else if(i == 7)
+            SceneManager.LoadScene("Optics_1");
+
     }
 }

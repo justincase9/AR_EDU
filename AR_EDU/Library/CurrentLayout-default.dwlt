@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 42
-    width: 1920
-    height: 1008
+    y: 43.2
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 958
-  m_MinSize: {x: 679, y: 492}
+    width: 1536
+    height: 731
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 290
+  controlID: 117
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,12 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1385
+    x: 1129
     y: 0
-    width: 535
-    height: 958
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 407
+    height: 731
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -93,10 +93,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 421
-    height: 580
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 355
+    height: 443
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -118,9 +118,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 580
-    width: 1385
-    height: 378
+    y: 443
+    width: 1129
+    height: 288
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -149,9 +149,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1008
-  m_MinSize: {x: 875, y: 542}
+    width: 1536
+    height: 781
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 988
-    width: 1920
+    y: 761
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -215,9 +215,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1385
-    height: 958
-  m_MinSize: {x: 403, y: 492}
+    width: 1129
+    height: 731
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 118
@@ -240,10 +240,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1385
-    height: 580
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+    width: 1129
+    height: 443
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 119
 --- !u!114 &11
@@ -261,10 +261,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 421
+    x: 355
     y: 0
-    width: 964
-    height: 580
+    width: 774
+    height: 443
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -294,22 +294,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1385
-    y: 72
-    width: 534
-    height: 937
+    x: 1128.8
+    y: 73.6
+    width: 406
+    height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
     ID: 144
     splitterInitialOffset: 0
     currentActiveSplitter: -1
-    realSizes: 8a020000d9000000
+    realSizes: e0010000a0000000
     relativeSizes:
     - 0.75
     - 0.25
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 867
+    lastTotalSize: 640
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
       name: AR_EDU
       fullName: AR_EDU
       resultStatus: 1
-      duration: 1.1411146
+      duration: 5.6579695
       messages: 
       output: 
       stacktrace: 
@@ -332,528 +332,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
-      uniqueId: '[E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Tests.dll][suite]'
-      name: Tests.dll
-      fullName: E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 1.0953085
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[AR_EDU][suite]'
-    - id: 1005
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 1.0871354
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: '[E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1001
-      uniqueId: Tests.dll/Tests/[Tests][Tests.TestSuit][suite]
-      name: TestSuit
-      fullName: Tests.TestSuit
-      resultStatus: 1
-      duration: 1.0814465
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1005
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1004
-      uniqueId: Tests.dll/Tests/TestSuit/[Tests][Tests.TestSuit.CannonBallLosesAllVelocityOnHittingTheGroundAndStopsUpdatingLineRenderer]
-      name: CannonBallLosesAllVelocityOnHittingTheGroundAndStopsUpdatingLineRenderer
-      fullName: Tests.TestSuit.CannonBallLosesAllVelocityOnHittingTheGroundAndStopsUpdatingLineRenderer
-      resultStatus: 1
-      duration: 1.5750426
-      messages: 
-      output: '0, 0, 0 || -0.4877 0.992 -9.49325
-
-        0.4051068, 0.2505985, 0
-        || -0.4795978 0.997012 -9.49325
-
-        0.4051068, 0.2437315, 0 || -0.4714957
-        1.001887 -9.49325
-
-        0.4051068, 0.2368645, 0 || -0.4633935 1.006624
-        -9.49325
-
-        0.4051068, 0.2299975, 0 || -0.4552914 1.011224 -9.49325
-
-        0.4051068,
-        0.2231305, 0 || -0.4471892 1.015686 -9.49325
-
-        0.4051068, 0.2162635,
-        0 || -0.4390871 1.020012 -9.49325
-
-        0.4051068, 0.2093965, 0 || -0.4309849
-        1.0242 -9.49325
-
-        0.4051068, 0.2025295, 0 || -0.4228828 1.02825 -9.49325
-
-        0.4051068,
-        0.1956625, 0 || -0.4147806 1.032164 -9.49325
-
-        0.4051068, 0.1887955,
-        0 || -0.4066785 1.035939 -9.49325
-
-        0.4051068, 0.1819285, 0 || -0.3985763
-        1.039578 -9.49325
-
-        0.4051068, 0.1750615, 0 || -0.3904742 1.043079
-        -9.49325
-
-        0.4051068, 0.1681945, 0 || -0.3823721 1.046443 -9.49325
-
-        0.4051068,
-        0.1613275, 0 || -0.3742699 1.04967 -9.49325
-
-        0.4051068, 0.1544605,
-        0 || -0.3661678 1.052759 -9.49325
-
-        0.4051068, 0.1475935, 0 || -0.3580656
-        1.055711 -9.49325
-
-        0.4051068, 0.1407264, 0 || -0.3499635 1.058525
-        -9.49325
-
-        0.4051068, 0.1338594, 0 || -0.3418613 1.061202 -9.49325
-
-        0.4051068,
-        0.1269924, 0 || -0.3337592 1.063742 -9.49325
-
-        0.4051068, 0.1201254,
-        0 || -0.325657 1.066145 -9.49325
-
-        0.4051068, 0.1132584, 0 || -0.3175549
-        1.06841 -9.49325
-
-        0.4051068, 0.1063914, 0 || -0.3094527 1.070538
-        -9.49325
-
-        0.4051068, 0.09952444, 0 || -0.3013505 1.072528 -9.49325
-
-        0.4051068,
-        0.09265744, 0 || -0.2932484 1.074381 -9.49325
-
-        0.4051068, 0.08579044,
-        0 || -0.2851463 1.076097 -9.49325
-
-        0.4051068, 0.07892344, 0 || -0.2770441
-        1.077676 -9.49325
-
-        0.4051068, 0.07205644, 0 || -0.2689419 1.079117
-        -9.49325
-
-        0.4051068, 0.06518944, 0 || -0.2608398 1.080421 -9.49325
-
-        0.4051068,
-        0.05832244, 0 || -0.2527377 1.081587 -9.49325
-
-        0.4051068, 0.05145545,
-        0 || -0.2446355 1.082616 -9.49325
-
-        0.4051068, 0.04458845, 0 || -0.2365334
-        1.083508 -9.49325
-
-        0.4051068, 0.03772145, 0 || -0.2284313 1.084262
-        -9.49325
-
-        0.4051068, 0.03085445, 0 || -0.2203291 1.08488 -9.49325
-
-        0.4051068,
-        0.02398745, 0 || -0.212227 1.085359 -9.49325
-
-        0.4051068, 0.01712045,
-        0 || -0.2041249 1.085702 -9.49325
-
-        0.4051068, 0.01025344, 0 || -0.1960227
-        1.085907 -9.49325
-
-        0.4051068, 0.003386444, 0 || -0.1879206 1.085974
-        -9.49325
-
-        0.4051068, -0.003480556, 0 || -0.1798185 1.085905 -9.49325
-
-        0.4051068,
-        -0.01034756, 0 || -0.1717163 1.085698 -9.49325
-
-        0.4051068, -0.01721456,
-        0 || -0.1636142 1.085354 -9.49325
-
-        0.4051068, -0.02408156, 0 || -0.1555121
-        1.084872 -9.49325
-
-        0.4051068, -0.03094856, 0 || -0.1474099 1.084253
-        -9.49325
-
-        0.4051068, -0.03781556, 0 || -0.1393078 1.083497 -9.49325
-
-        0.4051068,
-        -0.04468256, 0 || -0.1312057 1.082603 -9.49325
-
-        0.4051068, -0.05154956,
-        0 || -0.1231035 1.081572 -9.49325
-
-        0.4051068, -0.05841656, 0 || -0.1150014
-        1.080404 -9.49325
-
-        0.4051068, -0.06528356, 0 || -0.1068992 1.079098
-        -9.49325
-
-        0.4051068, -0.07215056, 0 || -0.09879714 1.077655 -9.49325
-
-        0.4051068,
-        -0.07901756, 0 || -0.09069499 1.076075 -9.49325
-
-        0.4051068, -0.08588456,
-        0 || -0.08259284 1.074357 -9.49325
-
-        0.4051068, -0.09275156, 0 ||
-        -0.07449073 1.072502 -9.49325
-
-        0.4051068, -0.09961855, 0 || -0.06638858
-        1.07051 -9.49325
-
-        0.4051068, -0.1064856, 0 || -0.05828646 1.06838
-        -9.49325
-
-        0.4051068, -0.1133526, 0 || -0.05018431 1.066113 -9.49325
-
-        0.4051068,
-        -0.1202196, 0 || -0.04208219 1.063709 -9.49325
-
-        0.4051068, -0.1270865,
-        0 || -0.03398007 1.061167 -9.49325
-
-        0.4051068, -0.1339536, 0 || -0.02587792
-        1.058488 -9.49325
-
-        0.4051068, -0.1408206, 0 || -0.01777574 1.055671
-        -9.49325
-
-        0.4051068, -0.1476876, 0 || -0.009673685 1.052718 -9.49325
-
-        0.4051068,
-        -0.1545546, 0 || -0.001571506 1.049626 -9.49325
-
-        0.4051068, -0.1614216,
-        0 || 0.006530643 1.046398 -9.49325
-
-        0.4051068, -0.1682886, 0 || 0.01463276
-        1.043032 -9.49325
-
-        0.4051068, -0.1751556, 0 || 0.02273491 1.039529
-        -9.49325
-
-        0.4051068, -0.1820226, 0 || 0.03083703 1.035889 -9.49325
-
-        0.4051068,
-        -0.1888896, 0 || 0.03893915 1.032111 -9.49325
-
-        0.4051068, -0.1957566,
-        0 || 0.0470413 1.028196 -9.49325
-
-        0.4051068, -0.2026236, 0 || 0.05514342
-        1.024143 -9.49325
-
-        0.4051068, -0.2094906, 0 || 0.06324553 1.019953
-        -9.49325
-
-        0.4051068, -0.2163576, 0 || 0.07134771 1.015626 -9.49325
-
-        0.4051068,
-        -0.2232246, 0 || 0.07944989 1.011162 -9.49325
-
-        0.4051068, -0.2300916,
-        0 || 0.08755195 1.00656 -9.49325
-
-        0.4051068, -0.2369587, 0 || 0.09565407
-        1.001821 -9.49325
-
-        0.4051068, -0.2438257, 0 || 0.1037562 0.9969443
-        -9.49325
-
-        0.4051068, -0.2506927, 0 || 0.1118584 0.9919305 -9.49325
-
-        0.4051068,
-        -0.2575597, 0 || 0.1199605 0.9867793 -9.49325
-
-        0.4051068, -0.2644266,
-        0 || 0.1280627 0.9814907 -9.49325
-
-        0, 0, 0 || 0.1361648 0.9760649
-        -9.49325
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TestSuit][suite]
-    - id: 1002
-      uniqueId: Tests.dll/Tests/TestSuit/[Tests][Tests.TestSuit.CannonBallMovesTest]
-      name: CannonBallMovesTest
-      fullName: Tests.TestSuit.CannonBallMovesTest
-      resultStatus: 1
-      duration: 0.1512526
-      messages: 
-      output: '0, 0, 0 || -0.4877 0.992 -9.49325
-
-        0.4051068, 0.2505985, 0
-        || -0.4795978 0.997012 -9.49325
-
-        0.4051068, 0.2437315, 0 || -0.4714957
-        1.001887 -9.49325
-
-        0.4051068, 0.2368645, 0 || -0.4633935 1.006624
-        -9.49325
-
-        0.4051068, 0.2299975, 0 || -0.4552914 1.011224 -9.49325
-
-        0.4051068,
-        0.2231305, 0 || -0.4471892 1.015686 -9.49325
-
-        0.4051068, 0.2162635,
-        0 || -0.4390871 1.020012 -9.49325
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TestSuit][suite]
-    - id: 1003
-      uniqueId: Tests.dll/Tests/TestSuit/[Tests][Tests.TestSuit.CannonBallsVelocityAndPossitionCorrelate]
-      name: CannonBallsVelocityAndPossitionCorrelate
-      fullName: Tests.TestSuit.CannonBallsVelocityAndPossitionCorrelate
-      resultStatus: 1
-      duration: 1.1500041
-      messages: 
-      output: '0, 0, 0 || -0.4877 0.992 -9.49325
-
-        0.4051068, 0.2505985, 0
-        || -0.4795978 0.997012 -9.49325
-
-        0.4051068, 0.2437315, 0 || -0.4714957
-        1.001887 -9.49325
-
-        0.4051068, 0.2368645, 0 || -0.4633935 1.006624
-        -9.49325
-
-        0.4051068, 0.2299975, 0 || -0.4552914 1.011224 -9.49325
-
-        0.4051068,
-        0.2231305, 0 || -0.4471892 1.015686 -9.49325
-
-        0.4051068, 0.2162635,
-        0 || -0.4390871 1.020012 -9.49325
-
-        0.4051068, 0.2093965, 0 || -0.4309849
-        1.0242 -9.49325
-
-        0.4051068, 0.2025295, 0 || -0.4228828 1.02825 -9.49325
-
-        0.4051068,
-        0.1956625, 0 || -0.4147806 1.032164 -9.49325
-
-        0.4051068, 0.1887955,
-        0 || -0.4066785 1.035939 -9.49325
-
-        0.4051068, 0.1819285, 0 || -0.3985763
-        1.039578 -9.49325
-
-        0.4051068, 0.1750615, 0 || -0.3904742 1.043079
-        -9.49325
-
-        0.4051068, 0.1681945, 0 || -0.3823721 1.046443 -9.49325
-
-        0.4051068,
-        0.1613275, 0 || -0.3742699 1.04967 -9.49325
-
-        0.4051068, 0.1544605,
-        0 || -0.3661678 1.052759 -9.49325
-
-        0.4051068, 0.1475935, 0 || -0.3580656
-        1.055711 -9.49325
-
-        0.4051068, 0.1407264, 0 || -0.3499635 1.058525
-        -9.49325
-
-        0.4051068, 0.1338594, 0 || -0.3418613 1.061202 -9.49325
-
-        0.4051068,
-        0.1269924, 0 || -0.3337592 1.063742 -9.49325
-
-        0.4051068, 0.1201254,
-        0 || -0.325657 1.066145 -9.49325
-
-        0.4051068, 0.1132584, 0 || -0.3175549
-        1.06841 -9.49325
-
-        0.4051068, 0.1063914, 0 || -0.3094527 1.070538
-        -9.49325
-
-        0.4051068, 0.09952444, 0 || -0.3013505 1.072528 -9.49325
-
-        0.4051068,
-        0.09265744, 0 || -0.2932484 1.074381 -9.49325
-
-        0.4051068, 0.08579044,
-        0 || -0.2851463 1.076097 -9.49325
-
-        0.4051068, 0.07892344, 0 || -0.2770441
-        1.077676 -9.49325
-
-        0.4051068, 0.07205644, 0 || -0.2689419 1.079117
-        -9.49325
-
-        0.4051068, 0.06518944, 0 || -0.2608398 1.080421 -9.49325
-
-        0.4051068,
-        0.05832244, 0 || -0.2527377 1.081587 -9.49325
-
-        0.4051068, 0.05145545,
-        0 || -0.2446355 1.082616 -9.49325
-
-        0.4051068, 0.04458845, 0 || -0.2365334
-        1.083508 -9.49325
-
-        0.4051068, 0.03772145, 0 || -0.2284313 1.084262
-        -9.49325
-
-        0.4051068, 0.03085445, 0 || -0.2203291 1.08488 -9.49325
-
-        0.4051068,
-        0.02398745, 0 || -0.212227 1.085359 -9.49325
-
-        0.4051068, 0.01712045,
-        0 || -0.2041249 1.085702 -9.49325
-
-        0.4051068, 0.01025344, 0 || -0.1960227
-        1.085907 -9.49325
-
-        0.4051068, 0.003386444, 0 || -0.1879206 1.085974
-        -9.49325
-
-        0.4051068, -0.003480556, 0 || -0.1798185 1.085905 -9.49325
-
-        0.4051068,
-        -0.01034756, 0 || -0.1717163 1.085698 -9.49325
-
-        0.4051068, -0.01721456,
-        0 || -0.1636142 1.085354 -9.49325
-
-        0.4051068, -0.02408156, 0 || -0.1555121
-        1.084872 -9.49325
-
-        0.4051068, -0.03094856, 0 || -0.1474099 1.084253
-        -9.49325
-
-        0.4051068, -0.03781556, 0 || -0.1393078 1.083497 -9.49325
-
-        0.4051068,
-        -0.04468256, 0 || -0.1312057 1.082603 -9.49325
-
-        0.4051068, -0.05154956,
-        0 || -0.1231035 1.081572 -9.49325
-
-        0.4051068, -0.05841656, 0 || -0.1150014
-        1.080404 -9.49325
-
-        0.4051068, -0.06528356, 0 || -0.1068992 1.079098
-        -9.49325
-
-        0.4051068, -0.07215056, 0 || -0.09879714 1.077655 -9.49325
-
-        0.4051068,
-        -0.07901756, 0 || -0.09069499 1.076075 -9.49325
-
-        0.4051068, -0.08588456,
-        0 || -0.08259284 1.074357 -9.49325
-
-        0.4051068, -0.09275156, 0 ||
-        -0.07449073 1.072502 -9.49325
-
-        0.4051068, -0.09961855, 0 || -0.06638858
-        1.07051 -9.49325
-
-        0.4051068, -0.1064856, 0 || -0.05828646 1.06838
-        -9.49325
-
-        0.4051068, -0.1133526, 0 || -0.05018431 1.066113 -9.49325
-
-        0.4051068,
-        -0.1202196, 0 || -0.04208219 1.063709 -9.49325
-
-        0.4051068, -0.1270865,
-        0 || -0.03398007 1.061167 -9.49325
-
-        0.4051068, -0.1339536, 0 || -0.02587792
-        1.058488 -9.49325
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TestSuit][suite]
-    - id: 1005
-      uniqueId: Tests.dll/Tests/TestSuit/[Tests][Tests.TestSuit.ForceArrowDirectionTest]
-      name: ForceArrowDirectionTest
-      fullName: Tests.TestSuit.ForceArrowDirectionTest
-      resultStatus: 1
-      duration: 1.0548788
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TestSuit][suite]
-    m_ResultText: ForceArrowDirectionTest (1.055s)
+    m_ResultText: CannonBallsVelocityAndPossitionCorrelate (1,132s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9a2537aa
-      m_LastClickedID: -1439226470
-      m_ExpandedIDs: 85ec820bccc78f22b1ee27318359db41ffffff7f
+      m_SelectedIDs: a55f44c4
+      m_LastClickedID: -1002152027
+      m_ExpandedIDs: b781f0c085ec820bccc78f22b1ee27318359db41ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -946,7 +431,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -972,15 +457,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 652
-    width: 1384
-    height: 357
+    y: 516
+    width: 1128
+    height: 267
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -995,20 +480,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Optics
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Optics
   m_LastFoldersGridSize: 60
-  m_LastProjectPath: E:\Unity\AREDU\AR_EDU\AR_EDU
+  m_LastProjectPath: D:\KTU\V semestras\GitHub\AR_EDU\AR_EDU
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98370000
-    m_LastClickedID: 14232
-    m_ExpandedIDs: 00000000983700009a3700009c3700006838000000ca9a3b
+    scrollPos: {x: 0, y: 265}
+    m_SelectedIDs: 4a380000
+    m_LastClickedID: 14410
+    m_ExpandedIDs: 00000000723700007437000076370000103800002a380000363800004438000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1036,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000983700009a3700009c370000
+    m_ExpandedIDs: 00000000723700007437000076370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1108,15 +593,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1385
-    y: 72
-    width: 534
-    height: 937
+    x: 1128.8
+    y: 73.6
+    width: 406
+    height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -1146,22 +631,22 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 72
-    width: 420
-    height: 559
+    y: 73.6
+    width: 354
+    height: 422
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 70fbffff
+      m_SelectedIDs: c8780000
+      m_LastClickedID: 30920
+      m_ExpandedIDs: 5c7effff687effffc8780000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1201,29 +686,29 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 421
-    y: 72
-    width: 962
-    height: 559
+    x: 355.2
+    y: 73.6
+    width: 772
+    height: 422
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ac0d9b82a3d17e240bdd086e690bb96d
   m_Gizmos: 1
-  m_SceneIsLit: 1
+  m_SceneIsLit: 0
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.21976967, y: 0.589881, z: -8.472382}
+    m_Target: {x: -0.00099889, y: -0.012845844, z: -0.028596476}
     speed: 2
-    m_Value: {x: -0.21976967, y: 0.589881, z: -8.472382}
+    m_Value: {x: -0.00099889, y: -0.012845844, z: -0.028596476}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1236,7 +721,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 1
+    showSkybox: 0
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -1245,10 +730,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -1261,28 +746,28 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20204501, y: 0.089467034, z: -0.018534772, w: 0.9751161}
+    m_Target: {x: 0.37246326, y: -0.12719156, z: 0.051614948, w: 0.91784006}
     speed: 2
-    m_Value: {x: -0.20204501, y: -0.089467034, z: 0.018534772, w: -0.9751161}
+    m_Value: {x: 0.3738394, y: -0.12711394, z: 0.051805653, w: 0.9172799}
   m_Size:
-    m_Target: 0.6181463
+    m_Target: 0.046151124
     speed: 2
-    m_Value: 0.6181463
+    m_Value: 0.18733534
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.07
-    m_SpeedNormalized: 0.03
+    m_Speed: 0.01
+    m_SpeedNormalized: 0
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1316,15 +801,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 421
-    y: 72
-    width: 962
-    height: 559
+    x: 355.2
+    y: 73.6
+    width: 772
+    height: 422
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1334,7 +819,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 962, y: 538}
+  m_TargetSize: {x: 965, y: 501.25}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1348,10 +833,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -481
-    m_HBaseRangeMax: 481
-    m_VBaseRangeMin: -279.5
-    m_VBaseRangeMax: 279.5
+    m_HBaseRangeMin: -386
+    m_HBaseRangeMax: 386
+    m_VBaseRangeMin: -200.5
+    m_VBaseRangeMax: 200.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1368,24 +853,24 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 962
-      height: 559
+      y: 21
+      width: 772
+      height: 401
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 481, y: 279.5}
+    m_Translation: {x: 386, y: 200.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -481
-      y: -279.5
-      width: 962
-      height: 559
+      x: -386
+      y: -200.5
+      width: 772
+      height: 401
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 962, y: 559}
+  m_LastWindowPixelSize: {x: 965, y: 527.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1407,13 +892,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 652
-    width: 1384
-    height: 357
+    y: 516
+    width: 1128
+    height: 267
   m_ViewDataDictionary: {fileID: 0}
