@@ -12,6 +12,7 @@ public class cannon : MonoBehaviour
     public static float globalGravity = -9.81f;
     public bool animating = true;
 
+    private Animator an;
     public LineRenderer lr;
     public Rigidbody rb;
     // Start is called before the first frame update
@@ -24,11 +25,14 @@ public class cannon : MonoBehaviour
         this.GetComponentInChildren<Rigidbody>().AddForce(rb.transform.up * force);
         lr = this.GetComponentInChildren<LineRenderer>();
         this.GetComponentInChildren<LineRenderer>().positionCount = 6;
+        Animation an  = GetComponentInChildren<Animation>();
+        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+
         //Debug.Log(rb.velocity);
         if (animating)
         {
@@ -38,7 +42,7 @@ public class cannon : MonoBehaviour
             {
                 gravityScale = 0;
                 rb.velocity = new Vector3(0, 0, 0);
-                animating = false;
+                //GetComponent<AnimationData>().enabled = false;
                 //rb.gameObject.GetComponent<LineRenderer>().enabled = false;
             }
             //Debug.Log(String.Format("{0}, {1}, {2} || {3} {4} {5}", rb.velocity.x, rb.velocity.y, rb.velocity.z, rb.transform.position.x, rb.transform.position.y, rb.transform.position.z));
@@ -50,5 +54,15 @@ public class cannon : MonoBehaviour
             lr.SetPosition(5, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.175f));
             lr.widthCurve = new AnimationCurve(new Keyframe(0, 0.8f), new Keyframe(0.2f, .8f), new Keyframe(.4f, 0), new Keyframe(.531f, 0.8f), new Keyframe(.9f, 0.8f), new Keyframe(1f, 0f));
         }
+    }
+   
+
+    public void completed()
+    {
+        an.enabled = true;
+        GetComponent<AnimationData>().enabled = true;
+
+        //GetComponent<AnimationRecorder>().enabled = false;
+        this.enabled = false;
     }
 }

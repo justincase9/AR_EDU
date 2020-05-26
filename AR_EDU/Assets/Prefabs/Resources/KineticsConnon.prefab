@@ -93,6 +93,9 @@ GameObject:
   - component: {fileID: 8218858194431961545}
   - component: {fileID: 8218858194431961544}
   - component: {fileID: 8218858194431961543}
+  - component: {fileID: 8091699964628752079}
+  - component: {fileID: 7906967802978437648}
+  - component: {fileID: 7122338181948728351}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -316,6 +319,52 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &8091699964628752079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218858194431961541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720c7a6c5c6ecf843b8afa0d3d47a2d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v0: {x: 0, y: 0, z: 0}
+  v1: {x: 0, y: 0, z: 0}
+  v2: {x: 0, y: 0, z: 0}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0}
+  v5: {x: 0, y: 0, z: 0}
+--- !u!114 &7906967802978437648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218858194431961541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8c27e96631a3240be31d84b737234c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 0}
+--- !u!111 &7122338181948728351
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8218858194431961541}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &8218858194635853033
 GameObject:
   m_ObjectHideFlags: 0
