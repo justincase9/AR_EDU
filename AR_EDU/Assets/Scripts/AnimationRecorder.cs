@@ -99,7 +99,7 @@ public class AnimationRecorder : MonoBehaviour
 
 
     KeyframeVec poskey;
-    bool recording;
+    public bool recording;
     private AnimationData adata;
 
     void Start()

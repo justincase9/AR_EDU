@@ -247,15 +247,6 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPAnchor.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\Scripts\AnimationData.cs" />
-    <Compile Include="Assets\Scripts\AnimationRecorder.cs" />
-    <Compile Include="Assets\Scripts\ArController.cs" />
-    <Compile Include="Assets\Scripts\ForceArrows.cs" />
-    <Compile Include="Assets\Scripts\Kinematics_1\Controller_1.cs" />
-    <Compile Include="Assets\Scripts\Optics\DrawLineScript.cs" />
-    <Compile Include="Assets\Scripts\Optics\DrawOtherLines.cs" />
-    <Compile Include="Assets\Scripts\TemuScript.cs" />
-    <Compile Include="Assets\Scripts\cannon.cs" />
     <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\GoogleARCore\SDK\Materials\ARBackground.shader" />
     <None Include="Assets\GoogleARCore\Examples\Common\Materials\Shaders\PlaneGrid.shader" />
@@ -840,6 +831,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>F:/NEW Program Files (x86)/Unity/2019.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="GameScrips.csproj">
+      <Project>{217D1350-F297-7B0A-D3E1-9FDC8076FAA1}</Project>
+      <Name>GameScrips</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

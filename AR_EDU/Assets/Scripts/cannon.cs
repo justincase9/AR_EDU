@@ -38,10 +38,11 @@ public class cannon : MonoBehaviour
         {
             Vector3 gravity = globalGravity * gravityScale * Vector3.up;
             rb.AddForce(gravity, ForceMode.Acceleration);
-            if (rb.gameObject.transform.localPosition.y < 0)
+            if (rb.gameObject.transform.localPosition.y <= 0)
             {
                 gravityScale = 0;
                 rb.velocity = new Vector3(0, 0, 0);
+                animating = false;
                 //GetComponent<AnimationData>().enabled = false;
                 //rb.gameObject.GetComponent<LineRenderer>().enabled = false;
             }

@@ -717,6 +717,10 @@
       <Project>{C6723976-30E8-0E09-3421-D6F630610CF1}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="GameScrips.csproj">
+      <Project>{217D1350-F297-7B0A-D3E1-9FDC8076FAA1}</Project>
+      <Name>GameScrips</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
