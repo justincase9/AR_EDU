@@ -252,6 +252,7 @@
     <Compile Include="Assets\Scripts\ArController.cs" />
     <Compile Include="Assets\Scripts\ForceArrows.cs" />
     <Compile Include="Assets\Scripts\Kinematics_1\Controller_1.cs" />
+    <Compile Include="Assets\Scripts\Kinematics_1\YoYoScript.cs" />
     <Compile Include="Assets\Scripts\Optics\DrawLineScript.cs" />
     <Compile Include="Assets\Scripts\Optics\DrawOtherLines.cs" />
     <Compile Include="Assets\Scripts\TemuScript.cs" />
