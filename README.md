@@ -4,7 +4,7 @@
 This application is created for the purpose of education. It includes physics experiments that can be played on your phone using AR. Creators of the app believe that applications like this could be used in schools to help children learn their subjects.
 
 
-INSTALATION:
+INSTALLATION:
 
 To install this application on your android device, you'll need to copy this repository to your computer and open it  with UNITY game engine (best with version 2019.3.11f1). Then, after connecting your phone to the said computer and allowing debugging mode in your phone's developer options, fo the following: File > Build Settings > Build and run. 
 
