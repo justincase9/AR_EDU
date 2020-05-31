@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Optics_1.unity
     guid: 14194394acbf25547ad910eb4ab0cfd6
+  - enabled: 1
+    path: Assets/Scenes/Optics_2.unity
+    guid: cbfcff4682a95144ea683cab02c7851a
   m_configObjects: {}
