@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Animations;
 
-public class AnimationRecorder : MonoBehaviour
+public class AnimationRecorderCar : MonoBehaviour
 {
     public class KeyframeVec : UnityEngine.Object
     {
@@ -75,14 +74,14 @@ public class AnimationRecorder : MonoBehaviour
                 if (i < 7)
                     clip.SetCurve("", typeof(Transform), keys[i], curve);
                 else
-                    clip.SetCurve("", typeof(AnimationData), keys[i], curve);
+                    clip.SetCurve("default", typeof(AnimationData), keys[i], curve);
 
                 curve.preWrapMode = WrapMode.ClampForever;
                 curve.postWrapMode = WrapMode.ClampForever;
             }
             clip.EnsureQuaternionContinuity();
 
-         
+
             anim.AddClip(clip, "replay");
         }
         public void Replay()
@@ -123,37 +122,42 @@ public class AnimationRecorder : MonoBehaviour
         }
     }
 
-
-
+    public bool recording;
     KeyframeVec poskey;
-    bool recording;
-    private AnimationData adata;
-    private float slider;
-
+    AnimationData adata;
+    float slider;
+    Transform tf;
     void Start()
     {
+        tf = GetComponentInParent<Transform>();
         recording = true;
-        poskey = new KeyframeVec(GetComponent<Animation>(),
+        poskey = new KeyframeVec(GetComponentInParent<Animation>(),
             new string[] { "localPosition.x", "localPosition.y", "localPosition.z", "localRotation.x", "localRotation.y", "localRotation.z", "localRotation.w",
-                "v0.x","v0.y","v0.z", "v1.x","v1.y","v1.z", "v2.x","v2.y","v2.z", "v3.x","v3.y","v3.z", "v4.x","v4.y","v4.z", "v5.x","v5.y","v5.z",   });
+                "v0.x","v0.y","v0.z", "v1.x","v1.y","v1.z", "v2.x","v2.y","v2.z", "v3.x","v3.y","v3.z", "v4.x","v4.y","v4.z", "v5.x","v5.y","v5.z",
+            "v6.x","v6.y","v6.z", "v7.x","v7.y","v7.z", "v8.x","v8.y","v8.z",});
         adata = GetComponent<AnimationData>();
         slider = 0;
     }
+
+    // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log(transform.localRotation.x + "      " + transform.localRotation.y + "         " + transform.localRotation.z + "\n" + transform.localRotation.eulerAngles.x + "      " + transform.localRotation.eulerAngles.y + "         " + transform.localRotation.eulerAngles.z + "\n" + Quaternion.Euler(transform.localRotation.eulerAngles).x + "      " + Quaternion.Euler(transform.localRotation.eulerAngles).y + "         " + Quaternion.Euler(transform.localRotation.eulerAngles).z + "\n" + Quaternion.Euler(transform.localRotation.eulerAngles).eulerAngles.x + "      " + Quaternion.Euler(transform.localRotation.eulerAngles).eulerAngles.y + "         " + Quaternion.Euler(transform.localRotation.eulerAngles).eulerAngles.z);
-        //Debug.Log(transform.rotation.x+ "      " + transform.rotation.y + "         " + transform.rotation.z + "\n" + transform.rotation.eulerAngles.x + "      " + transform.rotation.eulerAngles.y + "         " + transform.rotation.eulerAngles.z + "\n" + Quaternion.Euler(transform.rotation.eulerAngles).x + "      " + Quaternion.Euler(transform.rotation.eulerAngles).y + "         " + Quaternion.Euler(transform.rotation.eulerAngles).z+ "\n" + Quaternion.Euler(transform.rotation.eulerAngles).eulerAngles.x + "      " + Quaternion.Euler(transform.rotation.eulerAngles).eulerAngles.y + "         " + Quaternion.Euler(transform.rotation.eulerAngles).eulerAngles.z);
         if (recording)
         {
             //Debug.Log(adata);
-            poskey.SnapKey(0, transform.localPosition);
-            poskey.SnapKey(3, Quaternion.Euler(transform.localRotation.eulerAngles.x, transform.localRotation.eulerAngles.y, transform.localRotation.eulerAngles.z));
+            Debug.Log(transform.parent.localPosition);
+            Debug.Log(transform.parent.localRotation);
+            poskey.SnapKey(0, transform.parent.localPosition);
+            poskey.SnapKey(3, Quaternion.Euler(transform.parent.localRotation.eulerAngles.x, transform.parent.localRotation.eulerAngles.y, transform.parent.localRotation.eulerAngles.z));
             poskey.SnapKey(7, adata.v0);
             poskey.SnapKey(10, adata.v1);
             poskey.SnapKey(13, adata.v2);
             poskey.SnapKey(16, adata.v3);
             poskey.SnapKey(19, adata.v4);
             poskey.SnapKey(22, adata.v5);
+            poskey.SnapKey(25, adata.v6);
+            poskey.SnapKey(28, adata.v7);
+            poskey.SnapKey(31, adata.v8);
         }
         else
         {
@@ -162,6 +166,7 @@ public class AnimationRecorder : MonoBehaviour
         }
 
     }
+
     private void OnGUI()
     {
         if (GUI.Button(new Rect(40, 40, 80, 30), "recording"))
@@ -178,8 +183,4 @@ public class AnimationRecorder : MonoBehaviour
         poskey.SaveToAnim();
         poskey.Replay();
     }
-
 }
-
-
-

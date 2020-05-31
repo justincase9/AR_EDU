@@ -249,6 +249,7 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
     <Compile Include="Assets\Scripts\AnimationData.cs" />
     <Compile Include="Assets\Scripts\AnimationRecorder.cs" />
+    <Compile Include="Assets\Scripts\AnimationRecorderCar.cs" />
     <Compile Include="Assets\Scripts\ArController.cs" />
     <Compile Include="Assets\Scripts\ForceArrows.cs" />
     <Compile Include="Assets\Scripts\Kinematics_1\Controller_1.cs" />

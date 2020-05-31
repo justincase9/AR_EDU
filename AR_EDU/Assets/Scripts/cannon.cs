@@ -49,10 +49,10 @@ public class cannon : MonoBehaviour
             lr.SetPosition(0, rb.transform.position + (rb.velocity/50));
             lr.SetPosition(1, rb.transform.position + (rb.velocity * 0.15f));
             lr.SetPosition(2, rb.transform.position + (rb.velocity * 0.175f));
-            lr.SetPosition(3, rb.transform.position + (rb.velocity / 50));
-            lr.SetPosition(4, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.15f));
-            lr.SetPosition(5, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.175f));
-            lr.widthCurve = new AnimationCurve(new Keyframe(0, 0.8f), new Keyframe(0.2f, .8f), new Keyframe(.4f, 0), new Keyframe(.531f, 0.8f), new Keyframe(.9f, 0.8f), new Keyframe(1f, 0f));
+            //lr.SetPosition(3, rb.transform.position + (rb.velocity / 50));
+            //lr.SetPosition(4, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.15f));
+            //lr.SetPosition(5, rb.transform.position + (new Vector3(0, -.8f, 0) * 0.175f));
+            lr.widthCurve = new AnimationCurve(new Keyframe(0, 0.8f), new Keyframe(0.2f, .8f), new Keyframe(.4f, 0)/*, new Keyframe(.531f, 0.8f), new Keyframe(.9f, 0.8f), new Keyframe(1f, 0f)*/);
         }
     }
    

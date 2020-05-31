@@ -15,11 +15,11 @@ public class TemuScript : MonoBehaviour
     {
         //Debug.Log(Lygiai);
         //Debug.Log(Lygiai.name);
-        lPav = new string[36];
-        lPav[0] = "Nuozulni plokstuma";
-        lPav[1] = "Kamuolio metimas";
+        lPav = new string[12];
+        lPav[0] = "Kamuolio metimas";
+        lPav[1] = "Comming soon";
         lPav[2] = "Comming soon";
-        lPav[3] = "Comming soon";
+        lPav[3] = "Nuozulni plokstuma";
         lPav[4] = "Comming soon";
         lPav[5] = "Comming soon";
         lPav[6] = "Prizme";
@@ -28,26 +28,9 @@ public class TemuScript : MonoBehaviour
         lPav[9] = "Comming soon";
         lPav[10] = "Comming soon";
         lPav[11] = "Comming soon";
-        lPav[12] = "Comming soon";
-        lPav[13] = "Comming soon";
-        lPav[14] = "Comming soon";
-        lPav[15] = "Comming soon";
-        lPav[16] = "Comming soon";
-        lPav[17] = "Comming soon";
-        lPav[18] = "Comming soon";
-        lPav[19] = "Comming soon";
-        lPav[20] = "Comming soon"; 
-        lPav[21] = "Comming soon";
-        lPav[22] = "Comming soon";
-        lPav[23] = "Comming soon";
-        lPav[24] = "Comming soon";
-        lPav[25] = "Comming soon";
-        lPav[26] = "Comming soon";
-        lPav[27] = "Comming soon";
-        lPav[28] = "Comming soon";
-        lPav[29] = "Comming soon";
 
         Button[] buttons = Temos.GetComponentsInChildren<Button>();
+        int i = 0;
         foreach (Button b in buttons)
         {
             //Debug.Log(b.name);
@@ -80,17 +63,18 @@ public class TemuScript : MonoBehaviour
         //Debug.Log(num);
         //Debug.Log(Lygiai.transform.childCount);
         for(int i=0;i < Lygiai.transform.childCount; i++)
-            Lygiai.transform.GetChild(i).GetComponentInChildren<Text>().text = lPav[6 * num + i];
+            Lygiai.transform.GetChild(i).GetComponentInChildren<Text>().text = lPav[3 * num + i];
         if (num == 0)
         {
-            Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
-            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
-
+            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
         }
         if(num == 1)
         {
-            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(7));
-
+            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
+        }
+        if (num == 2)
+        {
+            Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(3));
         }
         Lygiai.SetActive(true);
         Temos.SetActive(false);
@@ -102,7 +86,7 @@ public class TemuScript : MonoBehaviour
             SceneManager.LoadScene("Kinematics_1");
         else if (i == 2)
             SceneManager.LoadScene("Kinematics#2");
-        else if(i == 7)
+        else if(i == 3)
             SceneManager.LoadScene("Optics_1");
 
     }
