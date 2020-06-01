@@ -66,6 +66,7 @@ public class ArController : MonoBehaviour
     /// </summary>
     private bool m_IsQuitting = false;
 
+    public bool spawned;
     public TextMesh mytext;
 
     /// <summary>
@@ -77,7 +78,10 @@ public class ArController : MonoBehaviour
         // Note, Application.targetFrameRate is ignored when QualitySettings.vSyncCount != 0.
         Application.targetFrameRate = 60;
     }
-
+    public void Start()
+    {
+        spawned = false;
+    }
     /// <summary>
     /// The Unity Update() method.
     /// </summary>
@@ -115,33 +119,39 @@ public class ArController : MonoBehaviour
             //}
             else
             {
-                // Choose the prefab based on the Trackable that got hit.
-                GameObject prefab = null;
-                if (hit.Trackable is FeaturePoint)
-                    prefab = GameObjectPointPrefab;
-                else if (hit.Trackable is DetectedPlane)
+                if (!spawned)
                 {
-                    DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
-                    if (detectedPlane.PlaneType != DetectedPlaneType.Vertical)
+                    // Choose the prefab based on the Trackable that got hit.
+                    GameObject prefab = null;
+                    if (hit.Trackable is FeaturePoint)
+                        prefab = GameObjectPointPrefab;
+                    else if (hit.Trackable is DetectedPlane)
+                    {
+                        DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
+                        if (detectedPlane.PlaneType != DetectedPlaneType.Vertical)
+                            prefab = GameObjectHorizontalPlanePrefab;
+                    }
+                    else
                         prefab = GameObjectHorizontalPlanePrefab;
+
+                    // Instantiate prefab at the hit pose.
+                    var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+
+                    // Compensate for the hitPose rotation facing away from the raycast (i.e.
+                    // camera).
+                    gameObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
+
+                    // Create an anchor to allow ARCore to track the hitpoint as understanding of
+                    // the physical world evolves.
+                    var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+                    mytext.text = (anchor + " " + anchor.transform.localScale + " " + anchor.transform.lossyScale);
+
+                    // Make game object a child of the anchor.
+                    gameObject.transform.parent = anchor.transform;
+
+                    spawned = true;
+
                 }
-                else
-                    prefab = GameObjectHorizontalPlanePrefab;
-
-                // Instantiate prefab at the hit pose.
-                var gameObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-
-                // Compensate for the hitPose rotation facing away from the raycast (i.e.
-                // camera).
-                gameObject.transform.Rotate(0, k_PrefabRotation, 0, Space.Self);
-
-                // Create an anchor to allow ARCore to track the hitpoint as understanding of
-                // the physical world evolves.
-                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-                mytext.text = (anchor + " " + anchor.transform.localScale + " " + anchor.transform.lossyScale);
-
-                // Make game object a child of the anchor.
-                gameObject.transform.parent = anchor.transform;
             }
         }
     }

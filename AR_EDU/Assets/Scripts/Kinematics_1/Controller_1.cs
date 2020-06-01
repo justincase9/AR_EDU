@@ -47,7 +47,7 @@ public class Controller_1 : MonoBehaviour
         // Note, Application.targetFrameRate is ignored when QualitySettings.vSyncCount != 0.
         Application.targetFrameRate = 60;
     }
-
+    bool spawned = false;   
     /// <summary>
     /// The Unity Update() method.
     /// </summary>
@@ -92,7 +92,7 @@ public class Controller_1 : MonoBehaviour
                 if (hit.Trackable is DetectedPlane)
                 {                
                     DetectedPlane detectedPlane = hit.Trackable as DetectedPlane;
-                    if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing)
+                    if (detectedPlane.PlaneType == DetectedPlaneType.HorizontalUpwardFacing && !spawned)
                     {
                         // Instantiate prefab at the hit pose.
                         var obj = Instantiate(Object, hit.Pose.position, hit.Pose.rotation);
@@ -107,6 +107,7 @@ public class Controller_1 : MonoBehaviour
 
                         // Make game object a child of the anchor.
                         obj.transform.parent = anchor.transform;
+                        spawned = true;
                         //prefab = GameObjectHorizontalPlanePrefab;
 
 

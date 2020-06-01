@@ -135,7 +135,7 @@ public class AnimationRecorder : MonoBehaviour
         recording = true;
         poskey = new KeyframeVec(GetComponent<Animation>(),
             new string[] { "localPosition.x", "localPosition.y", "localPosition.z", "localRotation.x", "localRotation.y", "localRotation.z", "localRotation.w",
-                "v0.x","v0.y","v0.z", "v1.x","v1.y","v1.z", "v2.x","v2.y","v2.z", "v3.x","v3.y","v3.z", "v4.x","v4.y","v4.z", "v5.x","v5.y","v5.z",   });
+                "v0.x","v0.y","v0.z", "v1.x","v1.y","v1.z", "v2.x","v2.y","v2.z"  });
         adata = GetComponent<AnimationData>();
         slider = 0;
     }
@@ -151,9 +151,7 @@ public class AnimationRecorder : MonoBehaviour
             poskey.SnapKey(7, adata.v0);
             poskey.SnapKey(10, adata.v1);
             poskey.SnapKey(13, adata.v2);
-            poskey.SnapKey(16, adata.v3);
-            poskey.SnapKey(19, adata.v4);
-            poskey.SnapKey(22, adata.v5);
+
         }
         else
         {
@@ -164,14 +162,21 @@ public class AnimationRecorder : MonoBehaviour
     }
     private void OnGUI()
     {
-        if (GUI.Button(new Rect(40, 40, 80, 30), "recording"))
+        GUIStyle myButtonStyle = new GUIStyle(GUI.skin.button);
+        GUIStyle mySliderStyle = new GUIStyle(GUI.skin.button);
+        myButtonStyle.fixedWidth = 40;
+        myButtonStyle.fixedHeight = 40;
+        mySliderStyle.fixedWidth = 810;
+        mySliderStyle.fixedHeight = 55;
+
+        if (GUI.Button(new Rect(40, 40, 150, 40), "recording"))
         {
             adata.ChangeState();
             recording = false;
-            //GetComponentInParent<cannon>().enabled = false;
+            GetComponentInParent<cannon>().enabled = false;
             Invoke("Playback", 1f);
         }
-        slider = GUI.HorizontalSlider(new Rect(40, 90, 200, 30), slider, -1, 1);
+        slider = GUI.HorizontalSlider(new Rect(200, 40, 800, 200), slider, -1, 1,mySliderStyle,myButtonStyle);
     }
     public void Playback()
     {

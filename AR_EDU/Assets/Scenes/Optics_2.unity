@@ -211,6 +211,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c539aa4fa1bac4b4da61761b0699b48b, type: 3}
+--- !u!4 &458434983 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4430574757597842, guid: c539aa4fa1bac4b4da61761b0699b48b,
+    type: 3}
+  m_PrefabInstance: {fileID: 458434982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &495045199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -505,6 +511,171 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &912145100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 458434983}
+    m_Modifications:
+    - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 216.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 54.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 468.7207
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 231.724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978496763058017495, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b9a2619d5898688489c1c2cee04a4d3a,
+        type: 3}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Text
+      value: "L\u0119\u0161is: \r\nPaai\u0161kinimas:\r\nf1 - \u017Eidiniai, \r\nobject
+        1 - tikrasis objektas\r\nimage 1 - projekto padidintas/suma\u017Eintas atvaizdas\r\n\r\nMatoma,
+        kad ten, kur susikerta \u0161alutin\u0117 optin\u0117 a\u0161is ir a\u0161is,
+        einanti tiesiai iki le\u0161io ir tuomet lau\u017Eiama per \u017Eidin\u012F,
+        atsiranda pirmojo objekto atvaizdas. Kadangi objekto kitas ta\u0161kas yra
+        ant pagrindin\u0117s optin\u0117s a\u0161ies, jam ie\u0161koti vietos nereikia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961621913124233531, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482729228051228472, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas (1) 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47aec7613256e4449ab3954a7c95ce18, type: 3}
 --- !u!1 &1047397711
 GameObject:
   m_ObjectHideFlags: 0
