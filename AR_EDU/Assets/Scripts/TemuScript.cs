@@ -73,16 +73,23 @@ public class TemuScript : MonoBehaviour
         if (num == 0)
         {
             Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(2));
+            Lygiai.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/cannonimg");
         }
         if(num == 1)
         {
             Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
             Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(5));
+            Lygiai.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/carimg");
+            Lygiai.transform.GetChild(1).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/yoyoimg");
+
         }
         if (num == 2)
         {
             Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(3));
             Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(4));
+            Lygiai.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/prismimg");
+            Lygiai.transform.GetChild(1).GetComponent<Image>().sprite = Resources.Load<Sprite>("sprites/camera");
+
         }
         Lygiai.SetActive(true);
         Temos.SetActive(false);
