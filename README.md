@@ -16,7 +16,11 @@ USAGE:
 After the app is opened, there are two buttons: "Pradėti" and "Nustatymai". If you press on the second button, you'll be able to change volume. If you click the first button, a menu appears where it is possible to choose topic of which the experiments will be observed. Afterwards, there is another menu of sub-topics, so you can choose whichever experiment to play. Once you're done, you can use your usual 'back' button or motion of the phone and you'll be once again in the menu where sub-topics of your picked experiments are displayed. 
 
 
+LINK TO FULL DOCUMENTATION (LITHUANIAN):
+https://drive.google.com/file/d/1u-MJ59Z-gJiagySeXqPxSZSW9bXTdS7m/view?usp=sharing
+
+
 CREDITS:
 
-Viltė Gražulevičiūtė
+Viltė Gražulevičiūtė,
 Justinas Zajančkauskas
