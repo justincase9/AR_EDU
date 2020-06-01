@@ -108,6 +108,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -132,6 +135,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
@@ -140,12 +146,6 @@
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
       <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Unity/AREDU/AR_EDU/AR_EDU/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/NEW Program Files (x86)/Unity/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -171,12 +171,13 @@ public class AnimationRecorderCar : MonoBehaviour
     {
         if (GUI.Button(new Rect(40, 40, 80, 30), "recording"))
         {
+            GetComponentInParent<Rigidbody>().isKinematic = true;
             adata.ChangeState();
             recording = false;
             //GetComponentInParent<cannon>().enabled = false;
             Invoke("Playback", 1f);
         }
-        slider = GUI.HorizontalSlider(new Rect(40, 90, 200, 30), slider, -1, 1);
+        slider = GUI.HorizontalSlider(new Rect(40, 170, 400, 80), slider, -1, 1);
     }
     public void Playback()
     {

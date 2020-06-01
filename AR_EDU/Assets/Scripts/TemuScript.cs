@@ -9,6 +9,7 @@ public class TemuScript : MonoBehaviour
     public GameObject Temos;
     public GameObject Lygiai;
     public GameObject Main;
+    public GameObject Kurejai;
     private string[] lPav;
 
     void Start()
@@ -19,11 +20,11 @@ public class TemuScript : MonoBehaviour
         lPav[0] = "Kamuolio metimas";
         lPav[1] = "Comming soon";
         lPav[2] = "Comming soon";
-        lPav[3] = "Nuozulni plokstuma";
-        lPav[4] = "Comming soon";
+        lPav[3] = "Nuožulni plokštuma";
+        lPav[4] = "Judėjimas apskritimu";
         lPav[5] = "Comming soon";
         lPav[6] = "Prizme";
-        lPav[7] = "Lesis";
+        lPav[7] = "Lešis";
         lPav[8] = "Comming soon";
         lPav[9] = "Comming soon";
         lPav[10] = "Comming soon";
@@ -54,6 +55,11 @@ public class TemuScript : MonoBehaviour
                 Lygiai.SetActive(false);
                 Temos.SetActive(true);
             }
+            else if (GameObject.Find("Kurejai") != null)
+            {
+                Kurejai.SetActive(false);
+                Main.SetActive(true);
+            }
         }
     }
 
@@ -71,6 +77,7 @@ public class TemuScript : MonoBehaviour
         if(num == 1)
         {
             Lygiai.transform.GetChild(0).GetComponent<Button>().onClick.AddListener(() => SceneLoad(1));
+            Lygiai.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => SceneLoad(5));
         }
         if (num == 2)
         {
@@ -91,6 +98,8 @@ public class TemuScript : MonoBehaviour
             SceneManager.LoadScene("Optics_1");
         else if(i == 4)
             SceneManager.LoadScene("Optics_2");
+        else if(i == 5)
+            SceneManager.LoadScene("Kinematics#3");
 
     }
 }
