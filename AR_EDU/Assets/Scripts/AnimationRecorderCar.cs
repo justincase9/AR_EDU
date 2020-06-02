@@ -172,11 +172,11 @@ public class AnimationRecorderCar : MonoBehaviour
         GUIStyle myButtonStyle = new GUIStyle(GUI.skin.button);
         GUIStyle mySliderStyle = new GUIStyle(GUI.skin.button);
         myButtonStyle.fixedWidth = 40;
-        myButtonStyle.fixedHeight = 40;
+        myButtonStyle.fixedHeight = 85;
         mySliderStyle.fixedWidth = 810;
-        mySliderStyle.fixedHeight = 55;
+        mySliderStyle.fixedHeight = 100;
 
-        if (GUI.Button(new Rect(40, 40, 150, 40), "recording"))
+        if (GUI.Button(new Rect(40, 40, 250, 200), "recording"))
         {
             GetComponentInParent<Rigidbody>().isKinematic = true;
             adata.ChangeState();
@@ -184,7 +184,7 @@ public class AnimationRecorderCar : MonoBehaviour
             //GetComponentInParent<cannon>().enabled = false;
             Invoke("Playback", 1f);
         }
-        slider = GUI.HorizontalSlider(new Rect(200, 40, 800, 200), slider, -1, 1,mySliderStyle,myButtonStyle);
+        slider = GUI.HorizontalSlider(new Rect(300, 40, 800, 200), slider, -1, 1,mySliderStyle,myButtonStyle);
     }
     public void Playback()
     {

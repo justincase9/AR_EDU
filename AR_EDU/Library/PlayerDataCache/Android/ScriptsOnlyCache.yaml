@@ -44,8 +44,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/Kinematics#2.unity:
     - Class: 1
@@ -1466,4 +1464,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Optics_1.unity
   - Assets/Scenes/Optics_2.unity
   - Assets/Scenes/Kinematics#3.unity
-  playerPath: E:/Unity/Final.apk
+  playerPath: E:/Unity/Final2.apk

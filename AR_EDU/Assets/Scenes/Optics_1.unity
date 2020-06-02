@@ -182,6 +182,16 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Text
+      value: "Siauras \u0161viesos spinduli\u0173 pluo\u0161tas, krit\u0119s \u012F
+        stiklin\u0117s prizm\u0117s briaun\u0105, l\u016B\u017Eta link prizm\u0117s
+        pagrindo. Kadangi prizm\u0117 pagaminta i\u0161 stiklo, kiekviena skirtingo
+        da\u017Enio banga d\u0117l skirtingo l\u016B\u017Eio rodiklio l\u016B\u017Eta
+        skirtingu kampu\n\nMa\u017Eiausiai l\u016B\u017Eta raudoni spinduliai, daugiausiai
+        - violetiniai"
+      objectReference: {fileID: 0}
     - target: {fileID: 5961621913124233531, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_IsActive
@@ -313,6 +323,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas (1) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.49056602
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47aec7613256e4449ab3954a7c95ce18, type: 3}

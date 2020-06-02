@@ -392,22 +392,22 @@ PrefabInstance:
     - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55.9
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 218.5426
+      value: 211.71173
       objectReference: {fileID: 0}
     - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 267
+      value: 241.67
       objectReference: {fileID: 0}
     - target: {fileID: 2036063609307426214, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 442.05798
+      value: 428.24084
       objectReference: {fileID: 0}
     - target: {fileID: 2978496763058017495, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
@@ -415,6 +415,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3476aa375a5e9cb4a888e7ec51d6f09b,
         type: 3}
+    - target: {fileID: 3722186035095426075, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 451.70728
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722186035095426075, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 387.96814
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722186035095426075, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -198.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722186035095426075, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5293699918011086467, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -523,13 +543,12 @@ PrefabInstance:
     - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_Text
-      value: "Objekto sukimasis: \r\n\r\nPaai\u0161kinimas:\r\nPagal antr\u0105j\u012F
-        Niutono d\u0117sn\u012F j\u0117ga yra k\u016Bno pagrei\u010Dio prie\u017Eastis.
-        \r\nVadinasi, apskritimu judan\u010Diam k\u016Bnui \u012Fcentrin\u012F pagreit\u012F
-        suteikia j\u0117ga, pavyzd\u017Eiui, ratu besisukan\u010Diam yo-yo \u017Eaislui\u2013
-        si\u016Blo \u012Ftempimo j\u0117ga. J\u012F nukirpus, j\u0117ga nustoja veikti
-        \u017Eaisl\u0105 ir jis d\u0117l to ima jud\u0117ti tiesiai, be \u012Fcentrinio
-        pagrei\u010Dio."
+      value: "\nPagal antr\u0105j\u012F Niutono d\u0117sn\u012F j\u0117ga yra k\u016Bno
+        pagrei\u010Dio prie\u017Eastis. \r\nVadinasi, apskritimu judan\u010Diam k\u016Bnui
+        \u012Fcentrin\u012F pagreit\u012F suteikia j\u0117ga, pavyzd\u017Eiui, ratu
+        besisukan\u010Diam yo-yo \u017Eaislui\u2013 si\u016Blo \u012Ftempimo j\u0117ga.
+        J\u012F nukirpus, j\u0117ga nustoja veikti \u017Eaisl\u0105 ir jis d\u0117l
+        to ima jud\u0117ti tiesiai, be \u012Fcentrinio pagrei\u010Dio."
       objectReference: {fileID: 0}
     - target: {fileID: 5961621913124233531, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
@@ -540,6 +559,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas (1) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47aec7613256e4449ab3954a7c95ce18, type: 3}

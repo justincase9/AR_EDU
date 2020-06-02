@@ -84,6 +84,7 @@ namespace GoogleARCore.Examples.Common
         /// <param name="plane">The plane to vizualize.</param>
         public void Initialize(DetectedPlane plane)
         {
+            
             m_DetectedPlane = plane;
             m_MeshRenderer.material.SetColor("_GridColor", Color.white);
             m_MeshRenderer.material.SetFloat("_UvRotation", Random.Range(0.0f, 360.0f));

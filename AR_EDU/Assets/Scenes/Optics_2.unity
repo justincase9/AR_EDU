@@ -652,12 +652,12 @@ PrefabInstance:
     - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
       propertyPath: m_Text
-      value: "L\u0119\u0161is: \r\nPaai\u0161kinimas:\r\nf1 - \u017Eidiniai, \r\nobject
-        1 - tikrasis objektas\r\nimage 1 - projekto padidintas/suma\u017Eintas atvaizdas\r\n\r\nMatoma,
-        kad ten, kur susikerta \u0161alutin\u0117 optin\u0117 a\u0161is ir a\u0161is,
-        einanti tiesiai iki le\u0161io ir tuomet lau\u017Eiama per \u017Eidin\u012F,
-        atsiranda pirmojo objekto atvaizdas. Kadangi objekto kitas ta\u0161kas yra
-        ant pagrindin\u0117s optin\u0117s a\u0161ies, jam ie\u0161koti vietos nereikia."
+      value: "f1 - \u017Eidiniai, \r\nobject 1 - tikrasis objektas\r\nimage 1 - projekto
+        padidintas/suma\u017Eintas atvaizdas\r\n\r\nMatoma, kad ten, kur susikerta
+        \u0161alutin\u0117 optin\u0117 a\u0161is ir a\u0161is, einanti tiesiai iki
+        le\u0161io ir tuomet lau\u017Eiama per \u017Eidin\u012F, atsiranda pirmojo
+        objekto atvaizdas. Kadangi objekto kitas ta\u0161kas yra ant pagrindin\u0117s
+        optin\u0117s a\u0161ies, jam ie\u0161koti vietos nereikia."
       objectReference: {fileID: 0}
     - target: {fileID: 5314143941305322594, guid: 47aec7613256e4449ab3954a7c95ce18,
         type: 3}
@@ -673,6 +673,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas (1) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.49056602
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532685227699563278, guid: 47aec7613256e4449ab3954a7c95ce18,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.49056602
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47aec7613256e4449ab3954a7c95ce18, type: 3}
